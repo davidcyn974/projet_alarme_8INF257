@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">languagePage</string>
+    <string name="radioFrench">Français</string>
+    <string name="radioEnglish">Anglais</string>
+    <string name="selectLanguage">Choisissez votre langue</string>
+    <string name="butonNameAlarms">Alarmes</string>
+    <string name="butonNameParameters">Paramètres</string>
+    <string name="writeHere">Ecrire ici</string>
+    <string name="hintPassphrase">Entrer votre phrase</string>
+    <string name="butonValidate">Valider</string>
+    <string name="passphraseTitle">Phrase à entrer</string>
+    <string name="passphraserule">Saisir une phrase de longueur min 10 puis appuyer sur valider</string>
+    <string name="yourAlarms">Vos Alarmes</string>
+    <string name="createAlarm">Créer une Alarme</string>
+    <string name="defaultTheme">Par défaut</string>
+    <string name="darkTheme">Thème sombre</string>
+    <string name="blueTheme">Bleu</string>
+    <string name="redTheme">Rouge</string>
+    <string name="themesMenuTitle">Choisir Thème</string>
+    <string name="calculMG">Mini jeu : Calcul</string>
+    <string name="answers">answer here</string>
+    <string name="pressThousands">Appuyer 1000 fois pour désactiver</string>
+    <string name="parametersStr">Paramètres</string>
+    <string name="langues">Langues</string>
+    <string name="themesSTR">Thèmes</string>
+    <string name="shakeRule">Secouer le téléphone pour débloquer !</string>
+    <string name="calculsTxt">Calcul</string>
+    <string name="noneTxt">Aucun</string>
+    <string name="desMethodStrnig">Méthode de Désactivation</string>
+    <string name="cliqueTxt">Cliquer</string>
+    <string name="shakeTxt">Secouer</string>
+    <string name="passphraseTxt">Entrer Phrase</string>
+    <string name="hip_hopTxt">Hip-Hop</string>
+    <string name="natureTxt">Nature</string>
+    <string name="ringtoneTXT">Choisissez votre Sonnerie</string>
+    <string name="l">L</string>
+    <string name="j">J</string>
+    <string name="v">V</string>
+    <string name="s">S</string>
+    <string name="d">D</string>
+    <string name="saveTxt">Sauvegarder</string>
+    <string name="m">M</string>
+
+    <string name="Ringtone">Sonnerie</string>
+    <string name="MiniGame">Mini-Jeu</string>
+    <string name="Edit">Modifier</string>
+    <string name="Delete">Supprimer</string>
+    <string name="test">test</string>
+    <string name="alarmSaved">Alarme sauvegardée</string>
+</resources>

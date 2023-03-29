@@ -1,0 +1,79 @@
+<resources>
+    <!-- Main Page Strings -->
+    <string name="app_name">projet_alarme_8INF257</string>
+    <string name="yourAlarms">Your Alarms</string>
+    <!-- Common used Strings -->
+    <string name="butonNameAlarms">Alarms</string>
+    <string name="butonNameParameters">Parameters</string>
+    <string name="butonValidate">Validate</string>
+    <string name="Ringtone">Ringtone</string>
+    <string name="MiniGame">Mini-Game</string>
+    <string name="Edit">Edit</string>
+    <string name="Delete">Delete</string>
+    <string name="alarmSaved">Alarm saved</string>
+
+    <!-- Common used Strings (Symbols)-->
+    <string name="plus" translatable="false">+</string>
+
+    <!-- "Aucune Alarme XML" Page Strings -->
+    <string name="createAlarm">Create an alarm</string>
+
+    <!-- Theme changing Strings -->
+    <string name="defaultTheme">Default Theme</string>
+    <string name="darkTheme">Dark Theme</string>
+    <string name="blueTheme">Blue Theme</string>
+    <string name="redTheme">Red Theme</string>
+    <string name="themesMenuTitle">Themes Selection</string>
+
+    <!-- Choix sonnerie page Strings -->
+    <string name="hip_hopTxt">Hip-Hop</string>
+    <string name="natureTxt">Nature</string>
+    <string name="ringtoneTXT">Choose your Ringtone</string>
+
+    <!-- Creer alarme page Strings -->
+    <string name="l">L</string>
+    <string name="m">M</string>
+    <string name="j">J</string>
+    <string name="v">V</string>
+    <string name="s">S</string>
+    <string name="d">D</string>
+    <string name="saveTxt">Save</string>
+
+    <!-- Desactivation page Strings -->
+    <string name="calculsTxt">Calculus</string>
+    <string name="noneTxt">None</string>
+    <string name="desMethodStrnig">Desactivation Method</string>
+    <string name="cliqueTxt">Click</string>
+    <string name="shakeTxt">Shake</string>
+    <string name="passphraseTxt">Passphrase</string>
+
+    <!-- Language Page Strings -->
+    <string name="radioFrench">French</string>
+    <string name="radioEnglish">English</string>
+    <string name="selectLanguage">Select your language</string>
+
+    <!-- Passphrase Minigame Strings -->
+    <string name="blankSpace" translatable="false">________</string>
+    <string name="writeHere"> Write Here</string>
+    <string name="hintPassphrase">Enter your phrase</string>
+    <string name="passphraserule">Enter a min 10 caracters length phrase to continue</string>
+    <string name="passphraseTitle">Passphrase Mini Game !</string>
+
+    <!-- Calcul Minigame Strings -->
+    <string name="calculMG">Calculus Mini Game</string>
+    <string name="answers">answer here</string>
+
+    <!-- Press 1000 Mini Game Strings -->
+    <string name="pressThousands">Press button 1000 times to win !</string>
+    <string name="parametersStr">Settings</string>
+
+    <!-- Parameters Page Strings -->
+    <string name="langues">Languages</string>
+    <string name="themesSTR">Themes</string>
+
+    <!-- Shake Game Strings -->
+    <string name="shakeRule">Shake the phone to disable !</string>
+    <string name="test">test</string>
+
+
+</resources>

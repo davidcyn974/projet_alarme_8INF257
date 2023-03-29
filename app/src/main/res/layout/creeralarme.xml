@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@xml/font"
+        >
+        <TextView
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="40dp"
+            android:text="@string/yourAlarms"
+            android:gravity="center"
+            android:textSize="50sp">
+        </TextView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginHorizontal="7dp"
+            android:layout_marginBottom="7dp"
+            android:layout_weight="2"
+            android:background="@xml/arrondi_principal"
+            android:padding="10dp">
+            <LinearLayout
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:background="@xml/contenu"
+                    android:layout_gravity="center"
+                    android:padding="10dp">
+                    <EditText
+                        android:textColor="@color/black"
+                        android:id="@+id/creerAlarmHeure"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="30sp"
+                        android:inputType="number">
+                    </EditText>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=":"
+                        android:textSize="30sp">
+                    </TextView>
+                    <EditText
+                        android:textColor="@color/black"
+                        android:id="@+id/creerAlarmMinute"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="30dp"
+                        android:inputType="number">
+                    </EditText>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp">
+                    <CheckedTextView
+                        android:textColor="@color/black"
+                        android:id="@+id/CheckLundi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:text="@string/l"
+                        android:layout_marginHorizontal="2dp"
+                        android:layout_weight="1"
+                        android:textAlignment="center">
+
+                    </CheckedTextView>
+                    <CheckedTextView
+                        android:textColor="@color/black"
+                        android:id="@+id/CheckMardi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:text="@string/m"
+                        android:layout_marginHorizontal="2dp"
+                        android:layout_weight="1"
+                        android:textAlignment="center">
+
+                    </CheckedTextView>
+                    <CheckedTextView
+                        android:textColor="@color/black"
+                        android:id="@+id/CheckMercredi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:text="@string/m"
+                        android:layout_marginHorizontal="2dp"
+                        android:layout_weight="1"
+                        android:textAlignment="center">
+
+                    </CheckedTextView>
+                    <CheckedTextView
+                        android:textColor="@color/black"
+                        android:id="@+id/CheckJeudi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:text="@string/j"
+                        android:layout_marginHorizontal="2dp"
+                        android:layout_weight="1"
+                        android:textAlignment="center">
+
+                    </CheckedTextView>
+                    <CheckedTextView
+                        android:textColor="@color/black"
+                        android:id="@+id/CheckVendredi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:text="@string/v"
+                        android:layout_marginHorizontal="2dp"
+                        android:layout_weight="1"
+                        android:textAlignment="center">
+
+                    </CheckedTextView>
+                    <CheckedTextView
+                        android:textColor="@color/black"
+                        android:id="@+id/CheckSamedi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:text="@string/s"
+                        android:layout_marginHorizontal="2dp"
+                        android:layout_weight="1"
+                        android:textAlignment="center">
+
+                    </CheckedTextView>
+                    <CheckedTextView
+                        android:textColor="@color/black"
+                        android:id="@+id/CheckDimanche"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:text="@string/d"
+                        android:layout_marginHorizontal="2dp"
+                        android:layout_weight="1"
+                        android:textAlignment="center">
+
+                    </CheckedTextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="50"
+                    android:layout_marginTop="10dp"
+                    android:background="@xml/contenu"
+                    android:padding="10dp"
+                    android:elevation="5dp"
+                    android:layout_marginBottom="7dp"
+                    android:onClick="choixsonnerie">
+                    <TextView
+                        android:textColor="@color/black"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ringtoneTXT"
+                        android:textSize="50sp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical">
+
+                    </TextView>
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_fleche"
+                        android:layout_marginEnd="10dp">
+
+                    </ImageView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="50"
+                    android:layout_marginTop="10dp"
+                    android:background="@xml/contenu"
+                    android:padding="10dp"
+                    android:elevation="5dp"
+                    android:layout_marginBottom="7dp"
+                    android:onClick="desactivation">
+                    <TextView
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/desMethodStrnig"
+                        android:textSize="30dip"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical">
+
+                    </TextView>
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_fleche"
+                        android:layout_marginEnd="10dp">
+
+                         </ImageView>
+                </LinearLayout>
+                <Button
+                    android:id="@+id/testAlarm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@xml/boutonsave"
+                    android:layout_gravity="center"
+                    android:elevation="5dp"
+                    android:text="@string/test"
+                    android:textSize="20sp"
+                    android:layout_marginTop="20dp"
+                    android:paddingHorizontal="30dp"
+                    >
+
+                </Button>
+
+                <Button
+                    android:id="@+id/saveAlarm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@xml/boutonsave"
+                    android:layout_gravity="center"
+                    android:elevation="5dp"
+                    android:text="@string/saveTxt"
+                    android:textSize="20sp"
+                    android:layout_marginTop="20dp"
+                    android:paddingHorizontal="30dp"
+                    >
+
+                </Button>
+
+            </LinearLayout>
+
+
+
+        </ScrollView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@xml/menu_arrondi"
+            android:orientation="horizontal"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:layout_marginBottom="7dp"
+            android:layout_marginTop="0dp"
+            android:layout_gravity="end"
+            android:paddingTop="0dp"
+            >
+            <Button
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/butonNameAlarms"
+                android:textColor="#FF592A"
+                android:onClick="alarme"
+                android:background="#00363636">
+
+            </Button>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="7dp"
+                android:paddingBottom="7dp"
+                android:src="@drawable/ic_barre_menu"
+                android:layout_weight="1"
+                >
+
+            </ImageView>
+            <Button
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="@string/butonNameParameters"
+                android:textColor="#000000"
+                android:layout_weight="1"
+                android:onClick="parametre"
+                android:background="#00363636">
+
+            </Button>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

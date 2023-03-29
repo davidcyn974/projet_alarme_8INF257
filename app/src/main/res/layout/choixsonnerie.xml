@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@xml/font"
+        >
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="40dp"
+            android:text="@string/ringtoneTXT"
+            android:gravity="center"
+            android:textSize="50dp"
+            >
+        </TextView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="7dp"
+            android:layout_marginBottom="7dp"
+            android:layout_weight="2"
+            android:background="@xml/arrondi_principal"
+            android:padding="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <RadioGroup
+                    android:id="@+id/RingtoneChoice"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:orientation="vertical">
+                    <RadioButton
+                        android:textColor="@color/black"
+                        android:id="@+id/RT0"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="50"
+                        android:text="@string/noneTxt"
+                        android:textSize="50sp"
+                        android:background="@xml/contenu"
+                        android:padding="10dp"
+                        android:elevation="5dp"
+                        android:layout_marginBottom="7dp">
+                    </RadioButton>
+                    <RadioButton
+                        android:textColor="@color/black"
+                        android:id="@+id/RT1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="50"
+                        android:text="@string/hip_hopTxt"
+                        android:textSize="50sp"
+                        android:background="@xml/contenu"
+                        android:padding="10dp"
+                        android:elevation="5dp"
+                        android:layout_marginBottom="7dp">
+                    </RadioButton>
+                    <RadioButton
+                        android:textColor="@color/black"
+                        android:id="@+id/RT2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="50"
+                        android:text="@string/natureTxt"
+                        android:textSize="50dip"
+                        android:background="@xml/contenu"
+                        android:padding="10dp"
+                        android:elevation="5dp"
+                        android:layout_marginBottom="7dp">
+                    </RadioButton>
+                </RadioGroup>
+            <Button
+                android:id="@+id/OkRingtone"
+                android:layout_weight="0"
+                android:text="@string/butonValidate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@xml/boutonsave"
+                android:layout_gravity="center"
+                android:elevation="5dp"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:paddingHorizontal="30dp"/>
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@xml/menu_arrondi"
+            android:orientation="horizontal"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:layout_marginBottom="7dp"
+            android:layout_marginTop="0dp"
+            android:layout_gravity="end"
+            android:paddingTop="0dp"
+            > <!--android:background="@xml/menu_arrondi"-->
+
+
+            <Button
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/butonNameAlarms"
+                android:textColor="#FF592A"
+                android:background="#00363636">
+
+            </Button>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="7dp"
+                android:paddingBottom="7dp"
+                android:src="@drawable/ic_barre_menu"
+                android:layout_weight="1"
+                >
+
+            </ImageView>
+            <Button
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="@string/butonNameParameters"
+                android:textColor="#000000"
+                android:layout_weight="1"
+                android:onClick="parametre"
+                android:background="#00363636">
+
+            </Button>
+
+
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

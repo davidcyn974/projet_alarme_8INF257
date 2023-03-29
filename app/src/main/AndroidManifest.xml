@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="uqac.dim.projet_alarme_8inf257">
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM"/>
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM"/>
+    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT"/>
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_alarm"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo_alarm"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Projet_alarme_8INF257">
+        <receiver android:name=".AlarmReciever" />
+        <activity
+            android:name=".MainActivity"
+            android:label="Alarme_8INF257"
+            android:exported="true"
+
+>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Parametre"
+            android:label="parametre"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+        <activity
+            android:name=".ModifierAlarmActivity"
+            android:label="modifier"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+        <activity
+            android:name=".CreerAlarmActivity"
+            android:label="creeralarme"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+        <activity
+            android:name=".ResultActivity"
+            android:label="Result"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+        <activity
+            android:name=".ChoixSonnerieActivity"
+            android:label="choixsonnerie"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+        <activity
+            android:name=".DesactivationActivity"
+            android:label="desactivation"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+        <activity
+            android:name=".ChangeThemeActivity"
+            android:label="theme"
+            android:parentActivityName=".Parametre">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Parametre"/>
+        </activity>
+        <activity
+            android:name=".LanguageActivity"
+            android:label="Langue"
+            android:parentActivityName=".Parametre">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Parametre"/>
+        </activity>
+        <activity
+            android:name=".MiniJeuxCalcul"
+            android:label="MJCalcul"
+            android:parentActivityName=".ResultActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ResultActivity"/>
+        </activity>
+        <activity
+            android:name=".MiniJeuxCliqueActivity"
+            android:label="MJClique"
+            android:parentActivityName=".ResultActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ResultActivity"/>
+        </activity>
+        <activity
+            android:name=".PassphraseActivity"
+            android:label="MJPhrase"
+            android:parentActivityName=".ResultActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ResultActivity"/>
+        </activity>
+        <activity
+            android:name=".ShakeActivity"
+            android:label="MJShake"
+            android:parentActivityName=".ResultActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ResultActivity"/>
+        </activity>
+    </application>
+
+</manifest>

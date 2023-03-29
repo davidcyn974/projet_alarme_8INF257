@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--
+    <style name="ThemeBleu">
+        <intem name="principale">@color/theme_bleu_principal</intem>
+        <color name="secondaire">@color/theme_bleu_secondaire</color>
+        <color name="texte">@color/theme_bleu_texte</color>
+    </style>-->
+</resources>
